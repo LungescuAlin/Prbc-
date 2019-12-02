@@ -1,0 +1,139 @@
+hello11. Write a C# Sharp program that takes a number and a width also a number, as input and then displays a triangle of that width, using that number.
+Test Data
+Enter a number: 6
+Enter the desired width: 6
+Expected Output :
+
+666666                                                      
+66666                                                           
+6666                                                                  
+666                                                        
+66                                                                  
+6 
+
+2. Write a C# Sharp program that takes a decimal number as input and displays its equivalent in binary form.
+Test Data:
+Number to convert (or "end")? 25
+Expected Output:
+Binary: 11001
+
+3. Create a function that takes a number as an argument and returns true or false depending on whether the number is symmetrical or not. A number is symmetrical when it is the same as its reverse.
+
+Examples
+IsSymmetrical(7227) ➞ true
+
+IsSymmetrical(12567) ➞ false
+
+IsSymmetrical(44444444) ➞ true
+
+IsSymmetrical(9939) ➞ false
+
+IsSymmetrical(1112111) ➞ true
+
+4. Create a function that accepts a string, checks if it's a valid email address and returns either true or false, depending on the evaluation.
+
+The string must contain an @ character.
+The string must contain a . character.
+The @ must have at least one character in front of it.
+e.g. "e@edabit.com" is valid while "@edabit.com" is invalid.
+The . and the @ must be in the appropriate places.
+e.g. "hello.email@com" is invalid while "john.smith@email.com" is valid.
+If the string passes these tests, it's considered a valid email address.
+
+Examples
+ValidateEmail("@gmail.com") ➞ false
+
+ValidateEmail("hello.gmail@com") ➞ false
+
+ValidateEmail("gmail") ➞ false
+
+ValidateEmail("hello@gmail") ➞ false
+
+ValidateEmail("hello@edabit.com") ➞ true
+
+5. Create a function that takes a string as an argument and converts the first character of each word to uppercase. Return the newly formatted string.
+
+Examples
+MakeTitle("This is a title") ➞ "This Is A Title"
+
+MakeTitle("capitalize every word") ➞ "Capitalize Every Word"
+
+MakeTitle("I Like Pizza") ➞ "I Like Pizza"
+
+MakeTitle("PIZZA PIZZA PIZZA") ➞ "PIZZA PIZZA PIZZA"
+
+6. Create a function that takes a string and returns a new string with each new character accumulating by +1. Separate each set with a dash.
+
+Examples
+Accum("abcd") ➞ "A-Bb-Ccc-Dddd"
+
+Accum("RqaEzty") ➞ "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+
+Accum("cwAt") ➞ "C-Ww-Aaa-Tttt"
+Notes
+Capitalize the first letter of each set.
+All tests contain valid strings with alphabetic characters (a-z, A-Z).
+
+7. This is a reverse coding challenge. Normally you're given explicit directions with how to create a function. Here, you must generate your own function to satisfy the relationship between the inputs and outputs.
+
+Your task is to create a function that, when fed the inputs below, produces the sample outputs shown.
+
+Examples
+MysteryFunc(152) ➞ 10
+
+MysteryFunc(832) ➞ 48
+
+MysteryFunc(19) ➞ 9
+
+MysteryFunc(133) ➞ 9
+
+8. Create a program that converts a phone number with letters to one with only numbers.
+
+Number	Letter
+0	none
+1	none
+2	ABC
+3	DEF
+4	GHI
+5	JKL
+6	MNO
+7	PQRS
+8	TUV
+9	WXYZ
+
+Examples
+TextToNum("123-647-EYES") ➞ "123-647-3937"
+
+TextToNum("(325)444-TEST") ➞ "(325)444-8378"
+
+TextToNum("653-TRY-THIS") ➞ "653-879-8447"
+
+TextToNum("435-224-7613") ➞ "435-224-7613"
+
+Notes
+All inputs will be formatted as a string representing a proper phone number in the format XXX-XXX-XXXX or (XXX)XXX-XXXX, using numbers and capital letters
+
+9. Create a function that takes a strings characters as ASCII and returns each characters hexadecimal value as a string.
+
+Examples
+ConvertToHex("hello world") ➞ "68 65 6c 6c 6f 20 77 6f 72 6c 64"
+
+ConvertToHex("Big Boi") ➞ "42 69 67 20 42 6f 69"
+
+ConvertToHex("Marty Poppinson") ➞ "4d 61 72 74 79 20 50 6f 70 70 69 6e 73 6f 6e"
+Notes
+Each byte must be seperated by a space.
+All alpha hex characters must be lowercase.
+
+10. Create two functions ToCamelCase() and ToSnakeCase() that each take a single string and convert it into either camelCase or snake_case. If you're not sure what these terms mean, check the Resources tab above.
+
+Examples
+ToCamelCase("hello_edabit") ➞ "helloEdabit"
+
+ToSnakeCase("helloEdabit") ➞ "hello_edabit"
+
+ToCamelCase("is_modal_open") ➞ "isModalOpen"
+
+ToSnakeCase("getColor") ➞ "get_color"
+Notes
+Test input will always be appropriately formatted as either camelCase or snake_case, depending on the function being called.
